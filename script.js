@@ -1,3 +1,6 @@
+import { injectSpeedInsights } from '@vercel/speed-insights';
+
+injectSpeedInsights();
 // Data for the resume
 const resume = {
   name: "Arpit Sawant",
